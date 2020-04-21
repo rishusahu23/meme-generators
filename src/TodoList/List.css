@@ -1,18 +1,22 @@
 .todo-list{
 	background-color: white;
-	margin:auto;
+	
 	display: flex;
 	flex-direction: column;
+	height: 500px;
 	align-items: center;
 	width: 50%;
+	justify-content: center;
 	border: 1px solid #efefef;
+	margin:auto;
+	box-shadow: 10px 45px 25px 0px rgba(0,0,0,0.75);
 }
 .todo-item{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	padding:30px 20px;
-	
+	font-size: 20px;
 	width:70%;
 	border-bottom: 1px solid #cecece;
 	font-weight: 100;

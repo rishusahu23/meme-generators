@@ -2,4 +2,32 @@ body {
  background-color:whitesmoke;
 }
 
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: flex-start; 
 
+}
+
+.contact-item{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: white;
+	
+	margin:auto;
+	margin-bottom: 5px;
+
+}
+
+.contact-item > img{
+	height: 200px;
+	width:200px;
+
+
+}
+.contact-item >p,h3 {
+	padding: 0px;
+	margin: 3px;
+}
