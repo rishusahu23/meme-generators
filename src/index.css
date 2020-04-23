@@ -15,7 +15,10 @@ body {
 	align-items: center;
 	flex-direction: column;
 	background-color: white;
+	width:20%;
+	height: 350px;
 	
+	flex-wrap: wrap;
 	margin:auto;
 	margin-bottom: 5px;
 
@@ -28,6 +31,7 @@ body {
 
 }
 .contact-item >p,h3 {
+	
 	padding: 0px;
 	margin: 3px;
 }

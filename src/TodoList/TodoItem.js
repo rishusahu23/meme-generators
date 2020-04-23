@@ -1,13 +1,33 @@
 import React from 'react'
 import './List.css'
-const TodoItem=()=>{
+
+
+class TodoItem extends React.Component{
+	render()
+	{
+		const {title,id,completed}=this.props.data;
 	return (
-		<div className="todo-item">
-			<input type="checkbox" name="firtcheck" value="first"/>
-	     	<label >hello it's first paragraph</label><br/>
+		<div className="todo-item" style={{color:(id%2==1)&&"red"}}>
+			<input type="checkbox" name="firtcheck" value="first" checked={completed}/>
+			<label  style={{marginLeft:15  }}>{id}):</label>
+	     	<label style={{marginLeft:15}}>{title}</label><br/>
 		</div>
 		)
+	}
 }
+
+/*const TodoItem=(props)=>{
+
+	const {title,id,completed}=props.data;
+	return (
+		<div className="todo-item" style={{color:(id%2==1)&&"#eeeeee"}}>
+			<input type="checkbox" name="firtcheck" value="first" checked={completed}/>
+			<label  style={{marginLeft:15  }}>{id}):</label>
+	     	<label style={{marginLeft:15}}>{title}</label><br/>
+		</div>
+		)
+	}
+*/
 
 
 export default TodoItem;
