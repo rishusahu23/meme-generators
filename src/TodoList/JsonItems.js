@@ -1,5 +1,4 @@
-import React from 'react'
-export const JsonItems=[
+const JsonItems=[
   {
     postId: 1,
     id: 1,
@@ -3501,3 +3500,5 @@ export const JsonItems=[
     body: "perspiciatis quis doloremque\nveniam nisi eos velit sed\nid totam inventore voluptatem laborum et eveniet\naut aut aut maxime quia temporibus ut omnis"
   }
 ]
+
+export default JsonItems

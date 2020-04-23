@@ -1,9 +1,9 @@
 import React from 'react' 
 // import Navbar from './Navbar'
 // import MyInfo from './MyInfo'
-//import List from './TodoList/List'
+import List from './TodoList/List'
 
-import State1 from './StatePractice/State1'
+import State3 from './StatePractice/State3'
 
 
 
@@ -13,7 +13,7 @@ class App extends React.Component
 	render(){
 		return(
 			<div> 
-				<State2 />
+				<List />
 			</div>
 			)
 	}		

@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const Contact_item=(props)=>{
-	const {name,email,phone}=props;
+	const {name,email,phone}=props.data;
 	return (
 		<div className="contact-item">
 				<img src={`https://robohash.org/${name}`} alt="hello"/>
